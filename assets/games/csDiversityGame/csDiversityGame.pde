@@ -31,8 +31,8 @@ void setup() {
   keys[3] = false;
   
   //Load textures
-  flagTexture = loadImage("flag.png");
-  playerTexture = loadImage("player.png");
+  flagTexture = loadImage("assets/games/csDiversityGame/data/flag.png");
+  playerTexture = loadImage("assets/games/csDiversityGame/data/player.png");
 }
 
 void draw() {
