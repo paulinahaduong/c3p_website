@@ -400,17 +400,17 @@ class Player extends GameObject {
 }
 
 class Textbox {
- public String text;
+ public String textd;
  private AABB bounds;
  
  public Textbox(String text, AABB bounds) {
-   this.text = text;
+   textd = text;
    this.bounds = bounds;
  }
  
  public void display() {
    fill(0);
-   text(text, bounds.minX, bounds.minY, bounds.maxX, bounds.maxY);
+   text(textd, bounds.minX, bounds.minY, bounds.maxX, bounds.maxY);
    fill(255);
  }
 }class Vector2 {
