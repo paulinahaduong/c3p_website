@@ -427,3 +427,14 @@ class Textbox {
    y += toAdd.y;
  }
 }
+
+class Wall extends GameObject {
+  public Wall(Vector2 pos, Vector2 size) {
+   super(pos, size, false, true);
+  }
+
+
+  public void updateObject() {
+    
+  }
+}
