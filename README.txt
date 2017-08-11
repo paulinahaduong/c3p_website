@@ -1,4 +1,4 @@
-
+This is the website for C3P, the Cambridge Creative Citizens Project. 
 
 
 
